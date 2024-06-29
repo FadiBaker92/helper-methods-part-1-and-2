@@ -47,7 +47,6 @@ class MoviesController < ApplicationController
 
     @the_movie = matching_movies.first
 
-    render template: "movies/edit" 
   end
 
   def update
